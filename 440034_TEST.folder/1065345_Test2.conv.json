@@ -1,0 +1,55 @@
+{
+  "obj_type": 1,
+  "obj_id": 1065345,
+  "parent_id": 440034,
+  "title": "Test2",
+  "description": "",
+  "status": "active",
+  "params": [],
+  "ref_mask": true,
+  "conv_type": "process",
+  "scheme": {
+    "nodes": [
+      {
+        "id": "626938b2513aa04dd5631202",
+        "obj_type": 1,
+        "condition": {
+          "logics": [
+            {
+              "type": "go",
+              "to_node_id": "626938b2513aa04dd5631203"
+            }
+          ],
+          "semaphors": []
+        },
+        "title": "Start",
+        "description": "",
+        "x": 688,
+        "y": 100,
+        "uuid": "1bcce570-a4cb-4fe7-9215-2b2e743a3dc4",
+        "extra": "{\"modeForm\":\"collapse\",\"icon\":\"\"}",
+        "options": null
+      },
+      {
+        "id": "626938b2513aa04dd5631203",
+        "obj_type": 2,
+        "condition": {
+          "logics": [],
+          "semaphors": []
+        },
+        "title": "Final",
+        "description": "",
+        "x": 688,
+        "y": 400,
+        "uuid": "876cf2d8-a9d9-4f93-b7a8-2dade64a5e7f",
+        "extra": "{\"modeForm\":\"collapse\",\"icon\":\"success\"}",
+        "options": "{\"save_task\":true}"
+      }
+    ],
+    "web_settings": [
+      [],
+      []
+    ]
+  },
+  "uuid": "6634f595-f20c-4a1b-940a-27014a1207e9"
+}
